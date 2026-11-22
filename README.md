@@ -1,5 +1,7 @@
 # WakeGuard
 
+[**在线交互展示**](https://sheatheli.github.io/WakeGuard/) · [**工程证据与验证索引**](docs/verification-map.md) · [![CMake Smoke](https://github.com/SheatheLi/WakeGuard/actions/workflows/smoke.yml/badge.svg)](https://github.com/SheatheLi/WakeGuard/actions/workflows/smoke.yml)
+
 > C++20有界MPMC任务执行器：围绕提交受理、槽位所有权、结果交付、Submit/Stop竞争与Shutdown协议建立可运行的并发合同，而不是简单宣传“无锁更快”。
 
 **工程状态：** 可构建的原生C++实验性Runtime，含测试、示例与多负载基准。不承诺所有操作路径Lock-free，也不将有限时间内的停滞直接称为死锁证明。
